@@ -1,0 +1,58 @@
+/* Estilos para #comeco e #historia */
+#comeco, #historia {
+    border: 0.001em solid rgba(177, 177, 252, 0.315);
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 100vh;
+    background: rgb(238, 174, 202);
+    background: linear-gradient(90deg, #b289cb 0%, #515ada 100%);
+    text-align: center;
+    padding-top: 200px;
+}
+
+.comeco-00 h2,
+#historia h2 {
+    margin: 15px;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: rgb(134, 13, 13);
+    text-shadow: 6px 6px 9px rgb(96, 124, 156);
+}
+
+.paragrafo-1 {
+    border-radius: 62px;
+    background-color: azure;
+    width: 100vh;
+    height: 400px;
+    margin: 15px auto; /* Centraliza horizontalmente */
+    border: solid rgb(74, 74, 77) 1px;
+    text-align: center;
+}
+
+.paragrafo-1 p {
+    margin: 45px;
+}
+
+/* Media query para a resolução 1366x768 para #comeco e #historia */
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+    /* Adicione seus estilos específicos para #comeco e #historia na resolução 1366x768 aqui */
+    #comeco, #historia {
+        padding-top: 100px; /* Ajuste a altura do espaço superior conforme necessário */
+    }
+}
+
+/* Media query para a proporção de 2340x1080 */
+@media screen and (max-width: 1080px) and (max-height: 2340px) {
+    /* Adicione seus estilos específicos para a proporção 2340x1080 aqui */
+    #comeco, #historia {
+        padding-top: 100px; /* Reduzir o espaço superior para dispositivos móveis com orientação invertida */
+    }
+
+    .comeco-00 h2, #historia h2 {
+        font-size: 24px; /* Reduzir o tamanho do título */
+    }
+
+    /* Ajustar outros estilos conforme necessário para dispositivos móveis com orientação invertida */
+}
+

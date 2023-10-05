@@ -1,0 +1,69 @@
+/* Estilos para o elemento #parabens canvas */
+#parabens canvas {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* Estilos para o elemento #parabens p */
+#parabens p {
+    margin: 0;
+    position: relative;
+    font: 16px Verdana;
+    color: #eee;
+    height: 25px;
+    top: calc(100vh - 30px);
+    text-shadow: 0 0 2px white;
+}
+
+/* Estilos para os links dentro do elemento #parabens p */
+#parabens p a {
+    text-decoration: none;
+    color: #aaa;
+}
+
+/* Estilos para o elemento #parabens span */
+#parabens span {
+    font-size: 11px;
+}
+
+/* Estilos para o primeiro link dentro de #parabens p */
+#parabens p > a:first-of-type {
+    font-size: 20px;
+}
+
+/* Estilos para o botÃ£o "Voltar ao topo" */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #6817e9;
+    /* Cor de fundo do botÃ£o */
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+.back-to-top a {
+    text-decoration: none;
+    color: #fff;
+    /* Cor do texto do botÃ£o */
+    font-weight: bold;
+}
+
+.back-to-top:hover {
+    background-color: #9c50ffbb;
+    /* Cor de fundo do botÃ£o ao passar o mouse */
+}
+
+/* Media query para a resoluÃ§Ã£o 1366x768 */
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+    /* Adicione seus estilos especÃ­ficos para a resoluÃ§Ã£o 1366x768 aqui */
+    /* Por exemplo, vocÃª pode ajustar tamanhos de fonte, posiÃ§Ãµes, etc. */
+    #parabens p {
+        font-size: 14px;
+    }
+    #parabens span {
+        font-size: 10px;
+    }
+}
